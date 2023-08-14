@@ -1,0 +1,40 @@
+win+g xbox bar
+
+win+shift+s print screen
+
+alt+arrow change line order
+
+ctrl+/ comment
+
+shift+alt+ up/down duplicate line
+
+shift+space toggle window size
+
+control+move position snapping
+
+[ / ] or shift + [ / ] rotate tiles parts
+
+string text = $"Coins: {count}";
+
+#region Name #endregion
+
+#if UNITY_EDITOR 
+	Debug.unityLogger.logEnabled = true;
+#else   Debug.unityLogger.logEnabled = false;
+#endif
+
+removed files/folders : Logs obj Temp Build Library .sln .csproj 
+
+ExtensionMethods !! StringBuilde  // ClickUp Asans Trello
+
+
+[Header ("Title")] 
+[Tooltip("Title")] 
+[Range (-10, 10)]
+[TextArea (minLines: 2, maxLines: 4)]
+[RequireComponent(typeof(Rigidbody))]
+[AddComponentMenu("Transform/Follow Transform")]
+
+ProBuilder  /  Visual Scripting  /  Unity Collaborator
+
+notion.so build documentation tool

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d693601099dd574b9dde22ce8cbb4f4, type: 3}
+  m_Name: CollectCoinsQuest
+  m_EditorClassIdentifier: 
+  Goals:
+  - Desciption: run red zone
+    isCompleted: 0
+    RequiredAmount: 3
+    CurrentAmount: 1
+  - Desciption: jkiulu
+    isCompleted: 0
+    RequiredAmount: 2
+    CurrentAmount: 1
+  Name: CollectCoins
+  Desciption: Collect all coins at current level
+  ExpReward: 0
+  isCompleted: 0
+  wasCompletedBefore: 1
+  ItemsReward:
+  - type: 1
+    amount: 2
+    canStack: 0
+  RewardPosition: {x: 1, y: 5, z: 0}
